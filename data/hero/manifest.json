@@ -1,5 +1,168 @@
 [
  {
+  "id": "dom_boulevard",
+  "name": "Domino's (L.G. Smith Blvd 126)",
+  "status": "v1-unit",
+  "x": -8327.07,
+  "z": -680.08,
+  "y": 0,
+  "rotation": 0,
+  "glb": "models/hero/dom_boulevard.glb",
+  "lod": {
+   "hi": "dom_boulevard_lod0",
+   "lo": "dom_boulevard_lod1",
+   "switch_m": 120
+  },
+  "tris": {
+   "dom_boulevard_lod0": 84,
+   "dom_boulevard_lod1": 24
+  },
+  "hide_footprint": null,
+  "new_place": true,
+  "sign": {
+   "text": "DOMINO'S",
+   "bg": "#006491",
+   "fg": "#ffffff",
+   "edge_index": null
+  },
+  "kind": "unit",
+  "unit_edge": [
+   [
+    -8330.492049934603,
+    -683.0077201053863
+   ],
+   [
+    -8323.650957835436,
+    -677.1596897625506
+   ]
+  ],
+  "approx_location": false,
+  "geo_source": "Nominatim address L.G. Smith Boulevard 126; findyello/mallaruba (Antraco Plaza)",
+  "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
+ },
+ {
+  "id": "dom_palmbeach",
+  "name": "Domino's (Palm Beach 186-E)",
+  "status": "v1-standalone APPROX location",
+  "x": -7440.67,
+  "z": -5043.33,
+  "y": 0,
+  "rotation": 0,
+  "glb": "models/hero/dom_palmbeach.glb",
+  "lod": {
+   "hi": "dom_palmbeach_lod0",
+   "lo": "dom_palmbeach_lod1",
+   "switch_m": 120
+  },
+  "tris": {
+   "dom_palmbeach_lod0": 1316,
+   "dom_palmbeach_lod1": 176
+  },
+  "hide_footprint": [
+   [
+    -7447.9,
+    -5044.8
+   ],
+   [
+    -7444.3,
+    -5044.7
+   ],
+   [
+    -7444.4,
+    -5040.4
+   ],
+   [
+    -7445.1,
+    -5040.5
+   ],
+   [
+    -7445.2,
+    -5036.1
+   ],
+   [
+    -7435.6,
+    -5035.9
+   ],
+   [
+    -7435.5,
+    -5040.3
+   ],
+   [
+    -7436.7,
+    -5040.3
+   ],
+   [
+    -7436.6,
+    -5044.6
+   ],
+   [
+    -7434.5,
+    -5044.5
+   ],
+   [
+    -7434.4,
+    -5053.8
+   ],
+   [
+    -7447.8,
+    -5054.0
+   ]
+  ],
+  "new_place": true,
+  "sign": {
+   "text": "DOMINO'S",
+   "bg": "#006491",
+   "fg": "#ffffff",
+   "edge_index": 4
+  },
+  "kind": "standalone",
+  "unit_edge": null,
+  "approx_location": true,
+  "geo_source": "Nominatim 'Palm Beach, Noord' (street-level only, APPROX); menuweb.menu",
+  "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
+ },
+ {
+  "id": "dom_rococo",
+  "name": "Domino's (Rococo Plaza, Tanki Leendert)",
+  "status": "v1-unit",
+  "x": -4726.09,
+  "z": -2018.53,
+  "y": 0,
+  "rotation": 0,
+  "glb": "models/hero/dom_rococo.glb",
+  "lod": {
+   "hi": "dom_rococo_lod0",
+   "lo": "dom_rococo_lod1",
+   "switch_m": 120
+  },
+  "tris": {
+   "dom_rococo_lod0": 84,
+   "dom_rococo_lod1": 24
+  },
+  "hide_footprint": null,
+  "new_place": true,
+  "sign": {
+   "text": "DOMINO'S",
+   "bg": "#006491",
+   "fg": "#ffffff",
+   "edge_index": null
+  },
+  "kind": "unit",
+  "unit_edge": [
+   [
+    -4726.2311450001025,
+    -2014.034504996815
+   ],
+   [
+    -4725.940973354004,
+    -2023.0298260258721
+   ]
+  ],
+  "approx_location": false,
+  "geo_source": "Nominatim 'Rococo Plaza'; dominosnearme.net (Tanki Leendert 158-G)",
+  "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
+ },
+ {
   "id": "m_dominos",
   "name": "Domino's",
   "status": "v1-brand-standard (no location photo yet)",
@@ -51,12 +214,17 @@
     7384.0
    ]
   ],
+  "new_place": false,
   "sign": {
    "text": "DOMINO'S",
    "bg": "#006491",
    "fg": "#ffffff",
    "edge_index": 0
   },
+  "kind": "replace",
+  "unit_edge": null,
+  "approx_location": false,
+  "geo_source": null,
   "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
  },
  {
@@ -111,12 +279,107 @@
     -2734.4
    ]
   ],
+  "new_place": false,
   "sign": {
    "text": "PIZZA HUT",
    "bg": "#c8102e",
    "fg": "#ffffff",
    "edge_index": 0
   },
+  "kind": "replace",
+  "unit_edge": null,
+  "approx_location": false,
+  "geo_source": null,
+  "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
+ },
+ {
+  "id": "ph_piedraplat",
+  "name": "Pizza Hut (Piedra Plat)",
+  "status": "v1-unit (plaza storefront, brand colours)",
+  "x": -2680.49,
+  "z": -629.61,
+  "y": 0,
+  "rotation": 0,
+  "glb": "models/hero/ph_piedraplat.glb",
+  "lod": {
+   "hi": "ph_piedraplat_lod0",
+   "lo": "ph_piedraplat_lod1",
+   "switch_m": 120
+  },
+  "tris": {
+   "ph_piedraplat_lod0": 84,
+   "ph_piedraplat_lod1": 24
+  },
+  "hide_footprint": null,
+  "new_place": true,
+  "sign": {
+   "text": "PIZZA HUT",
+   "bg": "#c8102e",
+   "fg": "#ffffff",
+   "edge_index": null
+  },
+  "kind": "unit",
+  "unit_edge": [
+   [
+    -2676.0464053217506,
+    -628.8744008869585
+   ],
+   [
+    -2684.92395063624,
+    -630.3539917727066
+   ]
+  ],
+  "approx_location": false,
+  "geo_source": "OSM POI 'Pizza Hut, 44L, Piedra Plat' via Nominatim; pizzahutaruba.com",
+  "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
+ },
+ {
+  "id": "ph_sannicolas",
+  "name": "Pizza Hut (San Nicolas)",
+  "status": "v1-standalone (Sasaki photo style)",
+  "x": 6225.27,
+  "z": 9228.22,
+  "y": 0,
+  "rotation": 0,
+  "glb": "models/hero/ph_sannicolas.glb",
+  "lod": {
+   "hi": "ph_sannicolas_lod0",
+   "lo": "ph_sannicolas_lod1",
+   "switch_m": 120
+  },
+  "tris": {
+   "ph_sannicolas_lod0": 1164,
+   "ph_sannicolas_lod1": 72
+  },
+  "hide_footprint": [
+   [
+    6219.6,
+    9234.9
+   ],
+   [
+    6229.0,
+    9236.1
+   ],
+   [
+    6231.0,
+    9221.6
+   ],
+   [
+    6221.5,
+    9220.3
+   ]
+  ],
+  "new_place": true,
+  "sign": {
+   "text": "PIZZA HUT",
+   "bg": "#c8102e",
+   "fg": "#ffffff",
+   "edge_index": 3
+  },
+  "kind": "standalone",
+  "unit_edge": null,
+  "approx_location": false,
+  "geo_source": "OSM POI 'Pizza Hut, Bernhardstraat' via Nominatim; pizzahutaruba.com (Bernhardstraat 1)",
   "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
  },
  {
@@ -611,12 +874,17 @@
     -7040.2
    ]
   ],
+  "new_place": false,
   "sign": {
    "text": "THE RITZ-CARLTON",
    "bg": "#1b2a3a",
    "fg": "#e9e2cf",
    "edge_index": null
   },
+  "kind": "replace",
+  "unit_edge": null,
+  "approx_location": false,
+  "geo_source": null,
   "frame": "glb origin = footprint centroid (local frame); glTF +X = local x, +Z = local z, Y up"
  }
 ]
